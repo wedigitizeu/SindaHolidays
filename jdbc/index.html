@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Registration Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <!--------Custom Style------------->
+  <link rel="stylesheet"  href="assets/styles/style.css">
+</head>
+<body>
+
+<div class="container-fluid">
+  
+  <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8 box">
+      <div class="col-sm-12">
+        <br>
+          <center><h3><b>Create Your Account<b></h3></center>
+          <form method="post" action="register">
+            <div class="input">
+              <input type="text" name="fname" placeholder="First Name">
+            </div>
+            <div class="input">
+              <input type="text" name="lname" placeholder="First Name">
+            </div>
+
+            <div class="input">
+              <input type="text" name="email" placeholder="Email">
+            </div>
+
+            <div class="input">
+              <input type="password" name="pwd" placeholder="Password">
+            </div>
+
+            <div class="input">
+              <input type="text" name="mobile" placeholder="Mobile">
+            </div>
+
+            <div class="drop-down">
+              <select>
+                <option>Please Select</option>
+                <option>India</option>
+                <option>US</option>
+              </select>
+            </div>
+
+            
+            <div class="gender" >
+              <span>
+                <label>Male</label>
+                <input type="radio" name="gen" value="male">
+              </span>
+              <span >
+                <label>Female</label>
+                <input  type="radio" name="gen" value="female">
+              </span>
+            </div>
+
+            <div class="lan" >
+              <span>
+                <label>HTML</label>
+                <input type="checkbox" name="gen" value="male">
+              </span>
+              <span >
+                <label>CSS</label>
+              <input  type="checkbox" name="gen" value="female">
+              </span>
+              <span>
+              <label>Java Script</label>
+                  <input type="checkbox" name="gen" value="male">
+              </span>
+                <span >
+                  <label>Jquery</label>
+                <input  type="checkbox" name="gen" value="female">
+              </span>
+              <span>
+                  <label>PHP</label>
+                  <input type="checkbox" name="gen" value="male">
+              </span>
+                <span >
+                  <label>Java</label>
+                <input  type="checkbox" name="gen" value="female">
+              </span>
+            </div>
+
+            <div class="input">
+
+              <input class="btn-clr" type="submit" name="sub" value="Create New Account">
+
+            </div>
+              
+            <div class="add-space"></div>
+            
+           
+
+          </form>
+          
+      </div>
+    </div>
+    <div class="col-sm-2"></div>
+  </div>
+</div>
+
+</body>
+</html>
