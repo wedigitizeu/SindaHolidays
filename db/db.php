@@ -1,6 +1,7 @@
 <?php
+//$conn=mysqli_connect('localhost','root','','sinda');
 
-$conn=mysqli_connect('localhost','root','','sinda');
+$conn=mysqli_connect('localhost','u663901735_sinda','9620606548','u663901735_sinda');
 if(!$conn)
 {
 	echo 'Database not Connected';
@@ -14,11 +15,18 @@ else
 
 class database{
 	
-	public $host="localhost";
+	/*public $host="localhost";
 	public $userName="root";
 	public $password="";
 	public $databaseName="sinda";
+	public $con;*/
+	
+	public $host="localhost";
+	public $userName="u663901735_sinda";
+	public $password="9620606548";
+	public $databaseName="u663901735_sinda";
 	public $con;
+
 
 
 	
