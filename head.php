@@ -1,4 +1,9 @@
 <?php include_once('phonebook.php');?>
+<!--- Sinda Holidays 
+Development by We Digitize U Team 
+Customer Support : 
+Sagar R Ganechary : +91 8618696064
+Prakash Koppal : +91 9110289543 -->
 <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
