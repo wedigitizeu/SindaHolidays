@@ -2,6 +2,14 @@
 <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="title" content="sindaholidays">
+<meta name="description" content="Sinda tours and travels, Established in 2007, arranges curated trips to your dream destinations as you planned within your budget. ">
+<meta name="keywords" content="tours and travels, India Tour Package, International Tour Package">
+<meta name="robots" content="index, follow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="language" content="English">
+<meta name="revisit-after" content="15 days">
+<meta name="author" content="sindaholidays_We Digitize U">
   <title><?php echo title();?></title>
   <!-- site favicon -->
   
